@@ -18,7 +18,7 @@
      
    ![](./img/2.PNG)
 
-### DOM Searching
+ #### DOM Searching
 
      If you want to access any element in an HTML page, you always start with accessing the 
      
@@ -31,7 +31,7 @@
 
   ![](./img/5.PNG);
 
-### Manipulating Element’s Styles
+ #### Manipulating Element’s Styles
 
      Setting inline styles
 
@@ -95,8 +95,7 @@
      to the class list.
 
    ![](./img/13.PNG)
-
-### JavaScript events
+ #### JavaScript events
 
      An event is an action that occurs in the web browser, which the web browser feedbacks to 
      
@@ -118,3 +117,49 @@
              btn.addEventListener('click',display);
 
    ![](./img/14.PNG)
+    
+     The following table shows the most commonly-used properties and methods of the event object:
+ 
+   ![](./img/15.PNG) 
+
+ #### JavaScript Forms
+
+     To create a form in HTML, you use the <form> element:
+
+![](./img/16.PNG)
+
+     The <form> element has two important attributes: action and method.
+     
+         -- The action attribute specifies a URL that will process the form submission. In this 
+         
+         example, the action is the /signup URL.
+
+         -- The method attribute specifies the HTTP method to submit the form with. Usually, 
+         
+         the method is either post or get.
+     
+     Generally, you use the get method when you want to retrieve data from the server and the 
+     
+     post method when you want to change data on the server.
+     
+     The HTMLFormElement element also provides the following useful methods:
+
+         -- submit() – submit the form.
+         
+         -- reset() – reset the form.
+ 
+     Accessing form fields
+
+     To access form fields, you can use DOM methods like getElementsByName(), getElementById(), 
+     
+     querySelector(), etc.
+
+   ![](./img/17.PNG)
+
+     And use index, id, or name to access the element. The following accesses the first form element:
+
+   ![](./img/18.PNG)
+
+     After accessing a form field, you can use the value property to access its value, for example:
+
+   ![](./img/19.PNG)

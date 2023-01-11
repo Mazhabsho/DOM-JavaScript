@@ -130,13 +130,13 @@
 
      The <form> element has two important attributes: action and method.
      
-         -- The action attribute specifies a URL that will process the form submission. In this 
+         1) The action attribute specifies a URL that will process the form submission. In this 
          
-         example, the action is the /signup URL.
+            example, the action is the /signup URL.
 
-         -- The method attribute specifies the HTTP method to submit the form with. Usually, 
+          2) The method attribute specifies the HTTP method to submit the form with. Usually, 
          
-         the method is either post or get.
+            the method is either post or get.
      
      Generally, you use the get method when you want to retrieve data from the server and the 
      
